@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  atulapptest:
+    image: atulmobiapp:v1
+    build: .
+    container_name: atulc1
+    ports:
+    - "3333:80"
+    restart: always
